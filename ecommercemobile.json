@@ -1,0 +1,75 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"ecommercemobile"},
+{"type":"table","name":"cart_product","database":"ecommercemobile","data":
+[
+{"id":"4","creation_date":"2024-05-07 22:06:30.537565","post_id":"1","user_id":"1","address":null,"email":"user@user.tn","name":"user test","numero":null,"product_id":null},
+{"id":"5","creation_date":"2024-05-07 22:06:30.566087","post_id":"2","user_id":"1","address":null,"email":"user@user.tn","name":"user test","numero":null,"product_id":null},
+{"id":"6","creation_date":"2024-05-07 22:10:43.092266","post_id":"1","user_id":"1","address":null,"email":"user@user.tn","name":"user test","numero":null,"product_id":null},
+{"id":"7","creation_date":"2024-05-07 22:10:43.099666","post_id":"2","user_id":"1","address":null,"email":"user@user.tn","name":"user test","numero":null,"product_id":null},
+{"id":"8","creation_date":"2024-05-07 22:10:43.106626","post_id":"3","user_id":"1","address":null,"email":"user@user.tn","name":"user test","numero":null,"product_id":null}
+]
+}
+,{"type":"table","name":"category","database":"ecommercemobile","data":
+[
+{"id":"1","description_category":"Unlock boundless possibilities with our laptops.","name":"Laptop"},
+{"id":"2","description_category":"Explore endless potential with our mobile devices.","name":"Mobiles"},
+{"id":"3","description_category":"Find your perfect click with our range of mice.","name":"Mouse"},
+{"id":"4","description_category":"Find your typing companion among our keyboards.","name":"Keyboard"},
+{"id":"5","description_category":"Find the future in our array of monitors.","name":"Monitors"},
+{"id":"6","description_category":"Find timeless elegance in our watches.","name":"Watch"},
+{"id":"7","description_category":null,"name":"MAC"},
+{"id":"8","description_category":"Gadgets","name":"Gadgets"}
+]
+}
+,{"type":"table","name":"commande","database":"ecommercemobile","data":
+[
+{"id":"1","address":"123 Main Street","date":null,"email":"johndoe@example.com","name":"John Doe","numero":null,"number":null,"user_id":null},
+{"id":"6","address":"123 Main Street","date":null,"email":"johndoe@example.com","name":"John Doe","numero":null,"number":"123456","user_id":null},
+{"id":"11","address":"123 Main Street","date":"2024-05-08 00:31:38.899051","email":"john@example.com","name":"John Doe","numero":null,"number":"1234567890","user_id":null}
+]
+}
+,{"type":"table","name":"commande_products","database":"ecommercemobile","data":
+[
+{"commande_id":"11","products_id_product":"1","products":null},
+{"commande_id":"11","products_id_product":"2","products":null},
+{"commande_id":"11","products_id_product":"3","products":null}
+]
+}
+,{"type":"table","name":"our_users","database":"ecommercemobile","data":
+[
+{"id":"1","account_state":"ACTIVE","address":null,"age":null,"birth_date":null,"email":"user@user.tn","firstname":"user","gender":null,"image":"C:\\Users\\arway\\Desktop\\EcommerceMobile\\backend\\profileimage\/blob","lastname":"test","number":null,"password":"$2a$10$cwV6G25ZtWMqWtbhsHKOO.wvk2TxPiJ0pKLPQQgLxbBNk2q8GMsbq","role":"USER"},
+{"id":"2","account_state":"ACTIVE","address":null,"age":null,"birth_date":null,"email":"seller@user.tn","firstname":"Seller","gender":null,"image":null,"lastname":"Test","number":null,"password":"$2a$10$JkqVSFOGkLvmvcpWooJUl.9bZw9ftQrmPtO10H8vKciUfHNZGxlnS","role":"SELLER"},
+{"id":"4","account_state":"ACTIVE","address":null,"age":null,"birth_date":null,"email":"mabrouk@user.tn","firstname":"youssef","gender":null,"image":null,"lastname":"Mabrouk","number":null,"password":"$2a$10$Iltf3eMQIBkIb\/MxBKV6y.9WXXqupPZyAsnIpikMmur\/KZVoBMnTS","role":"SELLER"},
+{"id":"5","account_state":null,"address":null,"age":null,"birth_date":null,"email":"ahmed@user.tn","firstname":"Ahmed","gender":null,"image":null,"lastname":"Tn","number":null,"password":"$2a$10$Tm1xFQ6Df7wSNh.fHOpqd.nieQG99DrobQW6b3A2wBTaG0eOGXx1O","role":"USER"},
+{"id":"6","account_state":null,"address":null,"age":null,"birth_date":null,"email":"admin@user.tn","firstname":"Youssef","gender":null,"image":null,"lastname":"mabrouk","number":null,"password":"$2a$10$ZwwOXAW9BAmS7LfGnDKcw.qz\/q6MPyGyHRPdKRsDHeTbgMkmWh5mW","role":"ADMIN"},
+{"id":"7","account_state":"ACTIVE","address":null,"age":null,"birth_date":null,"email":"sell@user.tn","firstname":"Ahmed","gender":null,"image":null,"lastname":"Ali","number":null,"password":"$2a$10$dW5\/JbR6RF7hGwMXn0SZ4ecVkpB6WKs9VI0gw5emr6z\/oQm94Orey","role":"SELLER"},
+{"id":"8","account_state":"ACTIVE","address":null,"age":null,"birth_date":null,"email":"youss@user.tn","firstname":"Youssef","gender":null,"image":null,"lastname":"Tn","number":null,"password":"$2a$10$J0oUfLfgHtAZS9aCu66CR.V1tq7UeUs94O8jdWnBlhLMA8A\/RhrWC","role":"SELLER"},
+{"id":"9","account_state":null,"address":null,"age":null,"birth_date":null,"email":"aaa@user.tn","firstname":"aaaa","gender":null,"image":null,"lastname":"aaaa","number":"123456","password":"$2a$10$ixmvhYkqxhoFAD6Gimjr7eCFqkVnX2UJrIUbOtAH.kLskIgv7iF8e","role":"SELLER"},
+{"id":"10","account_state":null,"address":null,"age":null,"birth_date":null,"email":"aaa@aa.dsd","firstname":"aa","gender":null,"image":null,"lastname":"aaa","number":"123","password":"$2a$10$4yGHhhRmjnyAj8Ufx9NZ9eIFf8DpPGK50xro7UFOVP2yzuCNh5fuy","role":"SELLER"}
+]
+}
+,{"type":"table","name":"product","database":"ecommercemobile","data":
+[
+{"id_product":"1","creation_date":"2024-05-07 17:12:18.000000","description_product":"Clavier gaming RGB","image":"https:\/\/www.sbsinformatique.com\/6148\/tunisie\/large\/clavier-gamer-semi-mecanique-redragon-centaur-2-k506-1-azerty-tunisie.jpg","name_product":"Clavier X25","name_link":null,"price":"17.4TND","stock_product":"25","category_id":"4","user_id":"2"},
+{"id_product":"2","creation_date":"2024-05-07 17:19:15.000000","description_product":"Écran 6,7 OLED Super Retina XDR HDR10, Dolby Vision, 120Hz - Écran toujours actif - Résolution: 2796x1290 pixels - Processeur: Apple A16 bionique (4 nm) Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) - GPU Graphics App","image":"https:\/\/mk-media.mytek.tn\/media\/catalog\/product\/cache\/8be3f98b14227a82112b46963246dfe1\/1\/_\/1_2133.jpg","name_product":"IPhone 14 128Go Violet - APPLE","name_link":null,"price":"3.425TND","stock_product":"5","category_id":"2","user_id":"2"},
+{"id_product":"3","creation_date":"2024-05-07 17:25:19.000000","description_product":null,"image":"https:\/\/www.sbsinformatique.com\/2358\/tunisie\/small\/souris-t-dagger-private-tgm106-rgb-tunisie-tunisie.jpg","name_product":"Souris gaming ","name_link":null,"price":"65.4TND","stock_product":"16","category_id":"3","user_id":"2"},
+{"id_product":"4","creation_date":"2024-05-07 17:26:19.000000","description_product":"Montre Connectée SAMSUNG Galaxy Watch 6 Classic BT 47 MM - Noir","image":"https:\/\/mk-media.mytek.tn\/media\/catalog\/product\/cache\/8be3f98b14227a82112b46963246dfe1\/m\/o\/montre-connectee-samsung-galaxy-watch-6-classic-bt-47-mm-noir.jpg","name_product":"SAMSUNG Galaxy Watch 6","name_link":"https:\/\/www.mytek.tn\/catalogsearch\/result\/?q=smartwatch","price":"1450TND","stock_product":"23","category_id":"6","user_id":"2"},
+{"id_product":"5","creation_date":"2024-05-07 19:49:39.000000","description_product":"Ecran Gamer - REDRAGON NEAPOLIS 24\" 75HZ","image":"https:\/\/www.sbsinformatique.com\/19167\/tunisie\/small\/ecran-gamer-redragon-neapolis-24-75hz-tunisie.jpg","name_product":"Ecran Gamer","name_link":null,"price":"240.600TND","stock_product":"10","category_id":"5","user_id":"2"},
+{"id_product":"6","creation_date":null,"description_product":"PC PORTABLE GAMER DELL G15 5530 I7 13È GÉN 32GO RTX 4060\r\n","image":"https:\/\/mk-media.mytek.tn\/media\/catalog\/product\/cache\/8be3f98b14227a82112b46963246dfe1\/p\/c\/pc-portable-gamer-dell-g15-5530-i7-13e-gen-32go-rtx-4060-a_1.jpg","name_product":"PC PORTABLE GAMER DELL","name_link":null,"price":"4736TND","stock_product":"6","category_id":"1","user_id":"8"},
+{"id_product":"7","creation_date":"2024-05-07 20:03:32.000000","description_product":"Écran 13 Retina LED IPS (2560 x 1600 pixels) - Processeur: Apple M1 (2020) (CPU 8 coeurs \/ GPU 7 coeurs \/ Neural Engine 16 coeurs) - Système d'exploitation: MacOS Big Sur - Mémoire RAM: 8 Go DDR4 - Disque Dur: 256 Go SSD avec Wi-Fi, Bluetooth, 2x Thunderb","image":"https:\/\/mk-media.mytek.tn\/media\/catalog\/product\/cache\/8be3f98b14227a82112b46963246dfe1\/a\/p\/apple-macbook-air-m1-2020-8go-256go-ssd-gold.jpg","name_product":"APPLE MACBOOK AIR M1 (2020) 8GO 256GO SSD - GOLD\r\n","name_link":null,"price":"3465TND","stock_product":"3","category_id":"7","user_id":"8"},
+{"id_product":"8","creation_date":"2024-05-07 20:05:33.000000","description_product":"Disque Dur Externe - Coque Externe en Silicone résistant aux chocs - Capacité: 1 To - Type de Disque: HDD - Format de Disque: 2.5 pouces - Interface: USB 3.2 (rétrocompatible avec USB 2.0) - AES 256 bits - Systéme d'exploitation Compatible: Windows XP , V","image":"https:\/\/mk-media.mytek.tn\/media\/catalog\/product\/cache\/8be3f98b14227a82112b46963246dfe1\/6\/8\/68132_9ns1drim4k8fbl3d_1_1.jpg","name_product":"DISQUE DUR EXTERNE ANTI-CHOC ADATA HD330 1TO USB 3.2 - ROUGE\r\n","name_link":"\r\n","price":"167TND","stock_product":"14","category_id":"8","user_id":"8"},
+{"id_product":"9","creation_date":"2024-05-07 20:08:27.000000","description_product":"Double SIM - Écran 6.6\" HD+ (720x1612 pixels) - Processeur: Unisoc T603 Octa-core - Systéme d'exploitation: itel OS 13 - Mémoire RAM: 3 Go(extensible jusqu'à 8 Go) - Stockage: 64 Go - Appareil Photo Arriére: Dual AI 13MP + 0.08MP, Frontale: 8MP - Connecti","image":"https:\/\/www.tunisianet.com.tn\/362183-large\/smartphone-itel-a70-3-go-64-go-gold.jpg","name_product":"ITEL A70 \/ 3 GO \/ 64 GO \/ GOLD","name_link":null,"price":"270TND","stock_product":"12","category_id":"2","user_id":"2"},
+{"id_product":"11","creation_date":"2024-05-07 20:13:26.000000","description_product":"Double SIM - Écran 6.8\" AMOLED dynamique 2XDouble SIM - Écran 6.8\" AMOLED dynamique 2X - Résolution: Quad HD+ (3120 x 1440) - Taux de rafraîchissement: 120 Hz - Prise en charge du stylet S - Processeur: Qualcomm Snapdragon 8 Gen 3 Octa-Core - Mémoire: 12 ","image":"https:\/\/www.tunisianet.com.tn\/351707-large\/smartphone-samsung-galaxy-s24-ultra-5g-12-go-256-go-gold.jpg","name_product":"SAMSUNG GALAXY S24 ULTRA \/ 5G \/ 12 GO \/ 256 GO \/ JAUNE","name_link":null,"price":"5748TND","stock_product":"17","category_id":"2","user_id":"4"},
+{"id_product":"12","creation_date":"2024-05-07 20:16:41.000000","description_product":"Écran 6,7 OLED Super Retina XDR HDR10, Dolby Vision, 120Hz - Écran toujours actif - Résolution: 2796x1290 pixels - Processeur: Apple A16 bionique (4 nm) Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) - GPU Graphics Apple 5 Coeurs - Système d'exploit","image":"https:\/\/www.tunisianet.com.tn\/332978-large\/smartphone-apple-iphone-14-pro-5g-128-go-purple.jpg","name_product":"IPHONE 14 PRO MAX 128GO NOIR - APPLE\r\n","name_link":null,"price":"5798TND","stock_product":"17","category_id":"2","user_id":"4"},
+{"id_product":"14","creation_date":"2024-05-07 20:21:02.000000","description_product":"Écran 17.3\" FULL HD IPS, 144 Hz \r\nProcesseur: Intel Core i5-12450H (up to 4,40 GHz Turbo max, 12 Mo de mémoire cache, Octa-Core) \r\nSystème d'exploitation: FreeDos \r\nMémoire RAM: 8 Go DDR5\r\nDisque dur: 512 Go SSD\r\nCarte graphique: NVIDIA GeForce RTX 4050 (","image":"https:\/\/www.sbsinformatique.com\/14868\/tunisie\/small\/pc-portable-gamer-msi-gaming-katana-17-b12vek-419xfr-i5-12450h-rtx-4050-6g-8-go-tunisie.jpg","name_product":"PC Portable Gamer - MSI Gaming KATANA 17 B12VEK-419XFR | I5-12450H | RTX 4050 6G |8 Go\r\n","name_link":null,"price":"3257TND","stock_product":"3","category_id":"1","user_id":"4"},
+{"id_product":"15","creation_date":"2024-05-07 20:22:38.000000","description_product":"Ecran AIWA 29.9″ MZ2950-K QHD 165Hz \r\nCurved\r\n2560 x 1440 pixels\r\n165Hz \r\n16\/9 \r\nDalle VA \r\nAMD FreeSync \r\nTemps de réponse 1Ms\r\n2x HDMI ","image":"https:\/\/www.sbsinformatique.com\/14082\/tunisie\/small\/ecran-gamer-aiwa-mz2950-k-299-qhd-165hz-curved-tunisie.jpg","name_product":"Ecran Gamer - AIWA MZ2950-K 29.9\" QHD 165HZ CURVED\r\n","name_link":null,"price":"967TND","stock_product":"2","category_id":"5","user_id":"4"},
+{"id_product":"16","creation_date":"2024-05-08 09:57:23.370581","description_product":"jkhkjhkj212","image":null,"name_product":"hkj","name_link":null,"price":null,"stock_product":"121","category_id":"5","user_id":"8"}
+]
+}
+,{"type":"table","name":"saved_product","database":"ecommercemobile","data":
+[
+
+]
+}
+]

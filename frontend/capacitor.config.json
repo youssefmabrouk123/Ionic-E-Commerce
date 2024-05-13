@@ -1,0 +1,12 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "ionic-ecommerce-app",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

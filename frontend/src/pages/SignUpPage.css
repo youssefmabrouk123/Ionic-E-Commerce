@@ -1,0 +1,30 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .input-field {
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-button {
+    --background: #28a745;
+    --border-radius: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .signin-link {
+    color: #666;
+  }
+  
